@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT3RS</title>
+    <style>
+        body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+p, h1, h2, ul, li {
+    position: relative;
+    padding-left: 20px; /* To make space for the | */
+}
+
+p::before, h1::before, h2::before, ul::before, li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-left: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+p:hover::before, h1:hover::before, h2:hover::before, ul:hover::before, li:hover::before {
+    content: "\1F697";
+    color: #00ff00;
+    left: -20px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>GT3RS: The Ultimate Racing Experience</h1>
+        
+        <h2>About the Game</h2>
+        <p>GT3RS is a high-octane racing game that puts you behind the wheel of the most powerful sports cars in the world. Experience realistic graphics, dynamic weather conditions, and challenging tracks that will push your driving skills to the limit. And Just like Forza 200+ Races Open World City Have fun. Drift, race Ram do whatever you want</p>
+
+        <h2>Developer</h2>
+        <p>Developed by <strong>A Studios</strong>, a passionate kid dedicated to creating immersive and thrilling gaming experiences. Please know that the release date may vary a lot because I am a single dev</p>
+
+        <h2>Game Details</h2>
+        <ul>
+            <li>Platform: PC</li>
+            <li>Genre: Racing</li>
+            <li>Release Date: 2025</li>
+            <li>Multiplayer: Yes</li>
+            <li>Supported Languages: English</li>
+            <li>Built With Unreal Engine</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Stunning 4K Graphics</li>
+            <li>Realistic Physics Engine</li>
+            <li>Customizable Cars and Tracks</li>
+            <li>Online Multiplayer with Leaderboards</li>
+            <li>Dynamic Weather and Day/Night Cycle</li>
+            <li>Hop in to try out different cars for a limited time when the car releases</li>
+            <li>Best Story mode out there</li>
+
+        </ul>
+
+        <h2>Gameplay Video</h2>
+        <video controls>
+            <source src="Gameplay.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <p>Explore more: <a href="gameplay.html">Gameplay Details</a> | <a href="contact.html">Contact Us</a></p>
+    </div>
+</body>
+</html>
+
+    
